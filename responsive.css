@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:#f1f1f1!important ;
+}
+.main{
+    text-align: center;
+    /* margin-left: 40%; */
+
+}
+
+.home{
+    /* padding: 50px; */
+    display: flex;
+    gap: 30px;
+    margin-top:5%;
+    /* margin-left: 30px; */
+   
+}
+
+.main1{
+    /* border: 1px solid gray; */
+    max-width: 900px;
+    box-shadow: 2px 2px 2px 2px gray;
+    /* left: 40%; */
+    margin-left: 7%; 
+       background-color: #fff;
+
+    
+}
+.text1{
+    padding: 20px;
+    max-width: 100%;
+}
+
+.sub{
+    padding: 10px;
+}
+.main2{
+    /* border: 2px solid gray; */
+    max-width: 450px;
+    max-height: 430px;
+    background-color: #fff;
+
+    box-shadow: 2px 2px 2px  2px gray;
+}
+.text2{
+    padding: 20px;
+    max-width: 100%;
+}
+
+.home2{
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+    
+
+}
+.main3{
+    /* border: 2px solid black; */
+    max-width: 900px;
+    margin-left: 7%;  
+      background-color: #fff;
+
+    box-shadow: 2px 2px 2px  2px gray;
+}
+.text3{
+    padding: 20px;
+    max-width: 100%;
+}
+
+  .main4{
+    border: 2px solid  #f1f1f1;
+    width: 450px;
+    height: 500px;
+    margin-top: -7rem;
+    box-shadow: 2px 2px 2px  2px gray;
+
+  }
+  .head{
+    background-color: transparent;
+    padding: 20px;
+  }
+  .box{
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+    background-color: #fff;
+  }
+  .main5{
+    border: 1px solid gray;
+    margin-top: 20px;
+    padding: 20px;
+    max-width: 100%;
+  }
+  .text5{
+    padding: 30px;
+  }
+  .head2{
+    background-color: transparent;
+    padding: 10px;
+   
+  }
+  .last{
+ max-width: 100%;
+    
+  height:  150px;
+    background-color: #ccc;
+    margin-top: 10%;
+    padding: 20px;
+
+  }
+   
+
+
+@media screen and (max-width:800px)  {
+    
+    .home{
+     display: block;
+     padding: 14px;
+     gap: 50px;
+    }
+    
+
+    .main1{
+        justify-content: center;
+        margin: auto;
+        display: block;
+
+        /* width: 100%; */
+        
+    }
+    .main2{
+        padding: 10px;
+        justify-content: center;
+        margin: auto;
+        margin-top: 30px;
+        display: block;
+        /* width: 100%; */
+        
+    }
+    .home2{
+        display: block;
+        padding: 14px;
+        gap: 50px;
+    }
+    .main3{
+        padding: 10px;
+        justify-content: center;
+        margin: auto;
+        display: block;
+    }
+    .main4{
+        padding: 10px;
+        justify-content: center;
+        margin: auto;
+        margin-top: 30px;
+       max-width: 100%;
+        display: block;
+    }
+    .main5{
+        /* padding: 10px; */
+        justify-content: center;
+        margin: auto;
+        margin-top: 30px;
+        display: block;
+    }
+    .last{
+        /* padding: 10px; */
+        justify-content: center;
+        margin: auto;
+        margin-top: 69%;
+        display: block;
+    }
+
+}
+
+
+
